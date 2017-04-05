@@ -5,12 +5,12 @@ variable "aws_region" {
 
 variable "access_key" {
   description = "The AWS acess key."
-  default     = "?"
+  default     = "awsaccesskey"
 }
 
 variable "secret_key" {
   description = "The AWS secret."
-  default     = "?"
+  default     = "awssecretkey"
 }
 
 variable "aws_amis" {
